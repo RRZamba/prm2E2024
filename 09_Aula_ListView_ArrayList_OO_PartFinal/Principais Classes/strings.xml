@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="nome">Digite seu nome</string>
+    <string name="endereco">Digite seu endereço</string>
+    <string name="cpf">Digite seu CPF</string>
+    <string name="cargo">Digite seu cargo</string>
+    <string name="salvarbtn">Salvar</string>
+    <string name="titulo">Orientação Mil Grau!!!!</string>
+</resources>

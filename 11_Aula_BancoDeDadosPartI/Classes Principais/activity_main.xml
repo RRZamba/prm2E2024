@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/txtNome"
+        android:layout_width="223dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:hint="Digite o nome"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtID" />
+
+    <Button
+        android:id="@+id/btnSalvar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="152dp"
+        android:layout_marginTop="28dp"
+        android:text="Salvar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtCurso" />
+
+    <EditText
+        android:id="@+id/txtCurso"
+        android:layout_width="216dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:hint="Digite o Curso"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtNome" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="254dp"
+        android:layout_height="94dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="28dp"
+        android:fontFamily="sans-serif-thin"
+        android:text="Banquinho de Dados Part I"
+        android:textAlignment="center"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/txtID"
+        android:layout_width="217dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="Digite o ID - para pesquisa"
+        android:inputType="number"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+</androidx.constraintlayout.widget.ConstraintLayout>

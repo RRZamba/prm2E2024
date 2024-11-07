@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtTitulo"
+        android:layout_width="282dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="64dp"
+        android:fontFamily="sans-serif-medium"
+        android:lineSpacingExtra="14sp"
+        android:text="Banco de Dadinhos!!!"
+        android:textAllCaps="true"
+        android:textColor="@color/purple_700"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        android:typeface="monospace"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/txtNome"
+        android:layout_width="216dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="19dp"
+        android:ems="10"
+        android:hint="Digite o nome"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtId" />
+
+    <Button
+        android:id="@+id/btnSalvar"
+        android:layout_width="125dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="28dp"
+        android:text="Salvar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtCurso" />
+
+    <Button
+        android:id="@+id/btnSelecionar"
+        android:layout_width="125dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="59dp"
+        android:layout_marginTop="23dp"
+        android:text="Selecionar"
+        android:textSize="12sp"
+        app:layout_constraintStart_toEndOf="@+id/btnDeletar"
+        app:layout_constraintTop_toBottomOf="@+id/btnAtualizar" />
+
+    <Button
+        android:id="@+id/btnAtualizar"
+        android:layout_width="125dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="216dp"
+        android:layout_marginTop="28dp"
+        android:text="Atualizar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtCurso" />
+
+    <Button
+        android:id="@+id/btnDeletar"
+        android:layout_width="125dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="23dp"
+        android:text="Deletar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnSalvar" />
+
+    <EditText
+        android:id="@+id/txtCurso"
+        android:layout_width="210dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:hint="Digite o Curso"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtNome" />
+
+    <EditText
+        android:id="@+id/txtId"
+        android:layout_width="66dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:hint="ID"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtTitulo" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

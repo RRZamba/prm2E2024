@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">BdInternoPArteII</string>
+    <string name="texto">Sqlite Mil Grau</string>
+    <string name="nome">Digite o Nome</string>
+    <string name="curso">Digite o curso</string>
+    <string name="insert">Salvar</string>
+    <string name="select">Selecionar</string>
+    <string name="title_activity_lista">ListaActivity</string>
+    <string name="btSelectTODOS">Sel. Tudo</string>
+    <string name="selecionarAll">Selecionar Todos</string>
+</resources>
